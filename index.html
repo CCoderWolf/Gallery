@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wolf Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="gallery">
+    <h1>Image Gallery</h1>
+
+    <div class="slider">
+      <button id="prevBtn" class="arrow">&#10094;</button>
+      <img id="mainImage" src="https://picsum.photos/id/1015/900/550" alt="Gallery image">
+      <button id="nextBtn" class="arrow">&#10095;</button>
+    </div>
+
+    <p id="caption">Image 1</p>
+
+    <div id="thumbnails" class="thumbnails"></div>
+
+    <div class="controls">
+      <button id="playBtn">▶ Play</button>
+      <button id="pauseBtn">⏸ Pause</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
